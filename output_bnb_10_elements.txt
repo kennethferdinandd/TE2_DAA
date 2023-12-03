@@ -1,0 +1,4 @@
+Best Error: 0
+Best Assignment: [True, True, True, False, False, False, False, True, False, False]
+Elapsed Time: 4.001617 milliseconds
+Peak Memory Usage: 6156.000000 bytes
