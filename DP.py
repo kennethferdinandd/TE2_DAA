@@ -58,7 +58,6 @@ def main(input_file, output_file):
         file.write(result["running_time"] + "\n")
         file.write(result["peak_memory"] + "\n")
 
-# Example usage
 input_file = "dataset_80_elements.txt"
 output_file = "output_dp_80.txt"
 main(input_file, output_file)

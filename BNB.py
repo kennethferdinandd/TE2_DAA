@@ -19,7 +19,6 @@ def partition_values_from_index(values, start_index, total_value, unassigned_val
                                          test_assignment, test_value + values[start_index],
                                          best_assignment, best_err)
 
-            # Try adding values[start_index] to set 2.
             test_assignment[start_index] = False
             partition_values_from_index(values, start_index + 1,
                                          total_value, unassigned_value,
